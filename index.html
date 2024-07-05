@@ -11,37 +11,55 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Yellowtail&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/style.css" />
     <title>Organic</title>
   </head>
   <body>
     <div class="site">
       <section class="header">
-        <div class="container"></div>
+        <div class="container">
+          <img src="./img/logo.png" alt="logo" />
+          <ul class="nav__list">
+            <li class="nav__item"><a class="nav__link" href="/"></a>Home</li>
+            <li class="nav__item">
+              <a class="nav__link" href="/"></a>About Us
+            </li>
+            <li class="nav__item"><a class="nav__link" href="/"></a>Shop</li>
+            <li class="nav__item"><a class="nav__link" href="/"></a>Pages</li>
+            <li class="nav__item">
+              <a class="nav__link" href="/"></a>Contact Us
+            </li>
+          </ul>
+          <button class="btn">Cart<span class="btn_count">0</span></button>
+        </div>
       </section>
       <section class="promo">
         <div class="container">
-          <h4 class="primary_title">Made with nature</h4>
-          <h2 class="promo__title">
-            Welcome to the world of nature and organic.
-          </h2>
-          <button class="btn">Explore Now</button>
+          <div class="promo__content">
+            <h4 class="primary_title">Made with nature</h4>
+            <h2 class="promo__title">
+              Welcome to the world of nature and organic.
+            </h2>
+            <button class="btn">Explore Now</button>
+          </div>
         </div>
       </section>
       <section class="discounts">
         <div class="container">
-          <div class="discounts__list">
-            <div class="discounts__item">
-              <div class="discounts__content">
-                <h4 class="primary_title">Natural!!</h4>
-                <h3 class="discounts__title">Get Garden Fresh Fruits</h3>
-              </div>
+          <div class="discounts__item discounts__item-pink">
+            <div class="discounts__content">
+              <h4 class="primary_title">Natural!!</h4>
+              <h3 class="discounts__title">Get Garden Fresh Fruits</h3>
             </div>
-            <div class="discounts__item">
-              <div class="discounts__content">
-                <h4 class="primary_title">Offer!!</h4>
-                <h3 class="discounts__title">Get 10% off on Vegetables</h3>
-              </div>
+          </div>
+          <div class="discounts__item discounts__item-grey">
+            <div class="discounts__content">
+              <h4 class="primary_title">Offer!!</h4>
+              <h3 class="discounts__title">Get 10% off on Vegetables</h3>
             </div>
           </div>
         </div>
@@ -61,19 +79,24 @@
             <div class="delivery__list">
               <div class="delivery__item">
                 <img class="delivery__img" src="./img/delivery1.svg" alt="#" />
-                <h5 class="delivery__title">Organic Foods Only</h5>
-                <p class="text">
-                  The Product that you ordered will be verified that we have or
-                  not if have we will start to move on with the next step.
-                </p>
+                <div class="delivery__content">
+                  <h5 class="delivery__title">Organic Foods Only</h5>
+                  <p class="text">
+                    The Product that you ordered will be verified that we have
+                    or not if have we will start to move on with the next step.
+                  </p>
+                </div>
               </div>
               <div class="delivery__item">
                 <img class="delivery__img" src="./img/delivery2.svg" alt="#" />
-                <h5 class="delivery__title">Quality Standards</h5>
-                <p class="text">
-                  Once your product is packed it will be delivered to your
-                  nearby locality you can directly visit the to buy the product.
-                </p>
+                <div class="delivery__content">
+                  <h5 class="delivery__title">Quality Standards</h5>
+                  <p class="text">
+                    Once your product is packed it will be delivered to your
+                    nearby locality you can directly visit the to buy the
+                    product.
+                  </p>
+                </div>
               </div>
             </div>
             <button class="btn">Explore Now</button>
@@ -177,7 +200,11 @@
           <div class="testimonial__content">
             <h4 class="primary_title">Testimonial</h4>
             <h2 class="title">What Our Customer Saying?</h2>
-            <img class="testimonial__img" src="" alt="" />
+            <img
+              class="testimonial__img"
+              src="./img/customer.png"
+              alt="customer"
+            />
             <div class="product-rate">
               <img src="./images/stars.png" alt="Stars" />
             </div>
@@ -220,12 +247,12 @@
       <section class="offer">
         <div class="container">
           <h4 class="primary_title">Offer Products</h4>
-          <h2 class="title">We Offer Organic For You</h2>
+          <h2 class="title title-white">We Offer Organic For You</h2>
           <button class="btn"></button>
           <div class="products__list">
             <div class="product__card">
               <button class="product__type">Vegetable</button>
-              <img class="product__img" src="" alt="" />
+              <img class="product__img" src="./img/product4.png" alt="tomato" />
               <div class="product__title">Vegan Red Tomato</div>
               <div class="product__price">
                 <div class="product-price__prev">$ 14.00 USD</div>
@@ -237,7 +264,11 @@
             </div>
             <div class="product__card">
               <button class="product__type">Fruits</button>
-              <img class="product__img" src="" alt="" />
+              <img
+                class="product__img"
+                src="./img/product5.png"
+                alt="almonds"
+              />
               <div class="product__title">Organic Almonds</div>
               <div class="product__price">
                 <div class="product-price__prev">$ 21.00 USD</div>
