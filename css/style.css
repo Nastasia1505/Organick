@@ -318,6 +318,14 @@ body {
   background-image: url(../img/selection3.png);
 }
 
+.footer .container{
+  display: flex;
+}
+
+.contact{
+  text-align: end;
+}
+
 .footer__title {
   font-size: 30px;
   line-height: 42px;
@@ -333,9 +341,30 @@ body {
   color: #525c60;
 }
 
+.organick{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.networks__list{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
 .network__item {
   width: 60px;
   height: 60px;
   border-radius: 50%;
   background-color: #eff6f1;
+}
+
+.footer__link{
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+color: #525c60;
 }
